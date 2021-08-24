@@ -1,0 +1,45 @@
+:root{
+    --background-color: #231942;
+    --text-color: #E0B1CB;
+}
+*{
+    margin: 10px;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--text-color);
+}
+body{
+    background-color: var(--background-color);
+}
+#app-container{
+    text-align: center;
+    margin: auto;
+}
+input{
+    width: 40vw;
+    display: block;
+    margin: 20px auto;
+    color: var(--background-color);
+    max-width: 90%;
+    font-weight: 600;
+}
+::placeholder{
+    color: #231942c9;
+    font-weight: 600;
+}
+#tell-me-btn{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-weight: bolder;
+}
+#output{
+    margin: 20px auto;
+    background-color: white;
+    font-weight: 600;
+    max-width: 60%;
+
+}
